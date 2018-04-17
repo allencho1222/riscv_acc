@@ -1,4 +1,4 @@
-package Accelerator
+package accelerator
 
 import chisel3._
 import chisel3.util
@@ -61,6 +61,4 @@ class TestAcceleratorModule(outer: TestAccelerator)(implicit p: Parameters)
     printf("io.mem.resp.bits.data: %d\n", io.mem.resp.bits.data);
     printf("data from address: %08x: %d\n", rs1_data);
   }
-
-
-  
+}

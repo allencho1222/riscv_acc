@@ -1,4 +1,9 @@
-import accelerator
+package accelerator
+
+import chisel3._
+import freechips.rocketchip.config._
+import freechips.rocketchip.diplomacy._
+import freechips.rocketchip.coreplex._
 
 
 class WithCustomAccelerator extends Config((site, here, up) => {
